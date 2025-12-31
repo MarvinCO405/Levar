@@ -1,4 +1,4 @@
-LiftLog - iOS Workout Tracking App
+Levar - iOS Workout Tracking App
 A comprehensive iOS application for tracking weightlifting workouts, built with SwiftUI and SwiftData.
 
 Features
@@ -9,6 +9,7 @@ Custom Exercises - Add your own exercises with categories and notes
 Progress Charts - Visualize weight and volume progression over time using Swift Charts
 Workout History - View all past workouts with detailed statistics
 CloudKit Sync - Automatic backup and sync across devices via iCloud
+SwiftData Storage - Modern, efficient local data persistence
 SwiftData Storage - Modern, efficient local data persistence
 Swift Testing - Comprehensive test suite for all models and business logic
 📱 Core Views
@@ -24,7 +25,7 @@ Charts: Swift Charts
 Testing: Swift Testing framework
 Minimum iOS: iOS 17.0+
 Project Structure
-LiftLog/
+Levar/
 ├── Models/
 │   ├── Exercise.swift          # Exercise data model
 │   ├── WorkoutSet.swift         # Individual set model
@@ -35,16 +36,16 @@ LiftLog/
 │   ├── ExerciseLibraryView.swift
 │   ├── ProgressView.swift       # Charts and statistics
 │   └── HistoryView.swift        # Past workouts
-├── LiftLogApp.swift             # Main app entry point
+├── LevarApp.swift             # Main app entry point
 └── Tests/
-    └── LiftLogTests.swift       # Swift Testing test suite
+    └── LevarTests.swift       # Swift Testing test suite
 Setup Instructions
 1. Create Xcode Project
 bash
 1. Open Xcode
 2. File → New → Project
 3. Choose "iOS" → "App"
-4. Product Name: LiftLog
+4. Product Name: Levar
 5. Interface: SwiftUI
 6. Language: Swift
 7. Click "Create"
@@ -53,20 +54,20 @@ Create the following files and copy the code from the artifacts:
 
 Models/ (Create new Group)
 
-Models.swift - Copy from "LiftLog - Data Models" artifact
+Models.swift - Copy from "Levar - Data Models" artifact
 Views/ (Create new Group)
 
-WorkoutView.swift - Copy from "LiftLog - Active Workout View"
-ExercisePicker.swift - Copy from "LiftLog - Exercise Picker & Add Set"
-ExerciseLibraryView.swift - Copy from "LiftLog - Exercise Library View"
-ProgressView.swift - Copy from "LiftLog - Progress View"
-HistoryView.swift - Copy from "LiftLog - History View"
+WorkoutView.swift - Copy from "Levar - Active Workout View"
+ExercisePicker.swift - Copy from "Levar - Exercise Picker & Add Set"
+ExerciseLibraryView.swift - Copy from "Levar - Exercise Library View"
+ProgressView.swift - Copy from "Levar - Progress View"
+HistoryView.swift - Copy from "Levar - History View"
 App/
 
-Replace LiftLogApp.swift - Copy from "LiftLog - Main App"
+Replace LevarApp.swift - Copy from "Levar - Main App"
 Tests/
 
-LiftLogTests.swift - Copy from "LiftLog - Swift Tests"
+LevarTests.swift - Copy from "Levar - Swift Tests"
 3. Enable CloudKit
 bash
 1. Select your project in the navigator
