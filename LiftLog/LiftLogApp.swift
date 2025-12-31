@@ -12,7 +12,10 @@ import SwiftData
 struct LiftLogApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Exercise.self,
+            WorkoutSet.self,
+            WorkoutSession.self,
+            PersonalRecord.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -30,3 +33,4 @@ struct LiftLogApp: App {
         .modelContainer(sharedModelContainer)
     }
 }
+
