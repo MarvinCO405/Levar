@@ -1,13 +1,13 @@
 //
-//  LiftLogUITestsLaunchTests.swift
-//  LiftLogUITests
+//  LevarUITestsLaunchTests.swift
+//  LevarUITests
 //
 //  Created by Marvin Cordova Ortiz on 12/31/25.
 //
 
 import XCTest
 
-final class LiftLogUITestsLaunchTests: XCTestCase {
+final class LevarUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,6 +1,6 @@
 //
 //  Item.swift
-//  LiftLog
+//  Levar
 //
 //  Created by Marvin Cordova Ortiz on 12/31/25.
 //

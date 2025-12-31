@@ -24,38 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		58B1D4792F05648200A1CAE5 /* LiftLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiftLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		58B1D48A2F05648400A1CAE5 /* LiftLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiftLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58B1D4942F05648400A1CAE5 /* LiftLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiftLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B1D4792F05648200A1CAE5 /* Levar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Levar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B1D48A2F05648400A1CAE5 /* LevarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B1D4942F05648400A1CAE5 /* LevarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		58B1D49C2F05648400A1CAE5 /* Exceptions for "LiftLog" folder in "LiftLog" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 58B1D4782F05648200A1CAE5 /* LiftLog */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		58B1D47B2F05648200A1CAE5 /* LiftLog */ = {
+		58B1D47B2F05648200A1CAE5 /* Levar */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				58B1D49C2F05648400A1CAE5 /* Exceptions for "LiftLog" folder in "LiftLog" target */,
-			);
-			path = LiftLog;
+			path = Levar;
 			sourceTree = "<group>";
 		};
-		58B1D48D2F05648400A1CAE5 /* LiftLogTests */ = {
+		58B1D48D2F05648400A1CAE5 /* LevarTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LiftLogTests;
+			path = LevarTests;
 			sourceTree = "<group>";
 		};
-		58B1D4972F05648400A1CAE5 /* LiftLogUITests */ = {
+		58B1D4972F05648400A1CAE5 /* LevarUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LiftLogUITests;
+			path = LevarUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,9 +75,9 @@
 		58B1D4702F05648200A1CAE5 = {
 			isa = PBXGroup;
 			children = (
-				58B1D47B2F05648200A1CAE5 /* LiftLog */,
-				58B1D48D2F05648400A1CAE5 /* LiftLogTests */,
-				58B1D4972F05648400A1CAE5 /* LiftLogUITests */,
+				58B1D47B2F05648200A1CAE5 /* Levar */,
+				58B1D48D2F05648400A1CAE5 /* LevarTests */,
+				58B1D4972F05648400A1CAE5 /* LevarUITests */,
 				58B1D47A2F05648200A1CAE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,9 +85,9 @@
 		58B1D47A2F05648200A1CAE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58B1D4792F05648200A1CAE5 /* LiftLog.app */,
-				58B1D48A2F05648400A1CAE5 /* LiftLogTests.xctest */,
-				58B1D4942F05648400A1CAE5 /* LiftLogUITests.xctest */,
+				58B1D4792F05648200A1CAE5 /* Levar.app */,
+				58B1D48A2F05648400A1CAE5 /* LevarTests.xctest */,
+				58B1D4942F05648400A1CAE5 /* LevarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B1D4782F05648200A1CAE5 /* LiftLog */ = {
+		58B1D4782F05648200A1CAE5 /* Levar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B1D49D2F05648400A1CAE5 /* Build configuration list for PBXNativeTarget "LiftLog" */;
+			buildConfigurationList = 58B1D49D2F05648400A1CAE5 /* Build configuration list for PBXNativeTarget "Levar" */;
 			buildPhases = (
 				58B1D4752F05648200A1CAE5 /* Sources */,
 				58B1D4762F05648200A1CAE5 /* Frameworks */,
@@ -121,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				58B1D47B2F05648200A1CAE5 /* LiftLog */,
+				58B1D47B2F05648200A1CAE5 /* Levar */,
 			);
-			name = LiftLog;
+			name = Levar;
 			packageProductDependencies = (
 			);
 			productName = LiftLog;
-			productReference = 58B1D4792F05648200A1CAE5 /* LiftLog.app */;
+			productReference = 58B1D4792F05648200A1CAE5 /* Levar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		58B1D4892F05648400A1CAE5 /* LiftLogTests */ = {
+		58B1D4892F05648400A1CAE5 /* LevarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B1D4A22F05648400A1CAE5 /* Build configuration list for PBXNativeTarget "LiftLogTests" */;
+			buildConfigurationList = 58B1D4A22F05648400A1CAE5 /* Build configuration list for PBXNativeTarget "LevarTests" */;
 			buildPhases = (
 				58B1D4862F05648400A1CAE5 /* Sources */,
 				58B1D4872F05648400A1CAE5 /* Frameworks */,
@@ -144,18 +131,18 @@
 				58B1D48C2F05648400A1CAE5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				58B1D48D2F05648400A1CAE5 /* LiftLogTests */,
+				58B1D48D2F05648400A1CAE5 /* LevarTests */,
 			);
-			name = LiftLogTests;
+			name = LevarTests;
 			packageProductDependencies = (
 			);
 			productName = LiftLogTests;
-			productReference = 58B1D48A2F05648400A1CAE5 /* LiftLogTests.xctest */;
+			productReference = 58B1D48A2F05648400A1CAE5 /* LevarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		58B1D4932F05648400A1CAE5 /* LiftLogUITests */ = {
+		58B1D4932F05648400A1CAE5 /* LevarUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B1D4A52F05648400A1CAE5 /* Build configuration list for PBXNativeTarget "LiftLogUITests" */;
+			buildConfigurationList = 58B1D4A52F05648400A1CAE5 /* Build configuration list for PBXNativeTarget "LevarUITests" */;
 			buildPhases = (
 				58B1D4902F05648400A1CAE5 /* Sources */,
 				58B1D4912F05648400A1CAE5 /* Frameworks */,
@@ -167,13 +154,13 @@
 				58B1D4962F05648400A1CAE5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				58B1D4972F05648400A1CAE5 /* LiftLogUITests */,
+				58B1D4972F05648400A1CAE5 /* LevarUITests */,
 			);
-			name = LiftLogUITests;
+			name = LevarUITests;
 			packageProductDependencies = (
 			);
 			productName = LiftLogUITests;
-			productReference = 58B1D4942F05648400A1CAE5 /* LiftLogUITests.xctest */;
+			productReference = 58B1D4942F05648400A1CAE5 /* LevarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B1D4742F05648200A1CAE5 /* Build configuration list for PBXProject "LiftLog" */;
+			buildConfigurationList = 58B1D4742F05648200A1CAE5 /* Build configuration list for PBXProject "Levar" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B1D4782F05648200A1CAE5 /* LiftLog */,
-				58B1D4892F05648400A1CAE5 /* LiftLogTests */,
-				58B1D4932F05648400A1CAE5 /* LiftLogUITests */,
+				58B1D4782F05648200A1CAE5 /* Levar */,
+				58B1D4892F05648400A1CAE5 /* LevarTests */,
+				58B1D4932F05648400A1CAE5 /* LevarUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		58B1D48C2F05648400A1CAE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 58B1D4782F05648200A1CAE5 /* LiftLog */;
+			target = 58B1D4782F05648200A1CAE5 /* Levar */;
 			targetProxy = 58B1D48B2F05648400A1CAE5 /* PBXContainerItemProxy */;
 		};
 		58B1D4962F05648400A1CAE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 58B1D4782F05648200A1CAE5 /* LiftLog */;
+			target = 58B1D4782F05648200A1CAE5 /* Levar */;
 			targetProxy = 58B1D4952F05648400A1CAE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -287,14 +274,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = LiftLog/LiftLog.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Levar/Levar.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y469267M9Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LiftLog/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MarvinCO.LiftLog;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvinCO.Levar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -323,14 +310,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = LiftLog/LiftLog.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Levar/Levar.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y469267M9Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LiftLog/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MarvinCO.LiftLog;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvinCO.Levar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -477,14 +464,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y469267M9Z;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MarvinCO.LiftLogTests;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvinCO.LevarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -499,14 +488,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y469267M9Z;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MarvinCO.LiftLogTests;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvinCO.LevarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -525,7 +516,7 @@
 				DEVELOPMENT_TEAM = Y469267M9Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MarvinCO.LiftLogUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvinCO.LevarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -545,7 +536,7 @@
 				DEVELOPMENT_TEAM = Y469267M9Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MarvinCO.LiftLogUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvinCO.LevarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -560,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B1D4742F05648200A1CAE5 /* Build configuration list for PBXProject "LiftLog" */ = {
+		58B1D4742F05648200A1CAE5 /* Build configuration list for PBXProject "Levar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B1D4A02F05648400A1CAE5 /* Debug */,
@@ -569,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B1D49D2F05648400A1CAE5 /* Build configuration list for PBXNativeTarget "LiftLog" */ = {
+		58B1D49D2F05648400A1CAE5 /* Build configuration list for PBXNativeTarget "Levar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B1D49E2F05648400A1CAE5 /* Debug */,
@@ -578,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B1D4A22F05648400A1CAE5 /* Build configuration list for PBXNativeTarget "LiftLogTests" */ = {
+		58B1D4A22F05648400A1CAE5 /* Build configuration list for PBXNativeTarget "LevarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B1D4A32F05648400A1CAE5 /* Debug */,
@@ -587,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B1D4A52F05648400A1CAE5 /* Build configuration list for PBXNativeTarget "LiftLogUITests" */ = {
+		58B1D4A52F05648400A1CAE5 /* Build configuration list for PBXNativeTarget "LevarUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B1D4A62F05648400A1CAE5 /* Debug */,

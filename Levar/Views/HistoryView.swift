@@ -10,7 +10,7 @@ import SwiftData
 
 struct HistoryView: View {
     @Query(sort: \WorkoutSession.date, order: .reverse) private var sessions: [WorkoutSession]
-    
+
     private var completedSessions: [WorkoutSession] {
         sessions.filter { $0.isCompleted }
     }

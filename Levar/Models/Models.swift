@@ -1,6 +1,6 @@
 //
 //  Models.swift
-//  LiftLog
+//  Levar
 //
 //  Created by Marvin Cordova Ortiz on 12/31/25.
 //
@@ -113,6 +113,20 @@ final class WorkoutSession {
     var exerciseCount: Int {
         let uniqueExercises = Set(sets?.compactMap { $0.exercise?.id } ?? [])
         return uniqueExercises.count
+    }
+    
+    func finish() {
+        guard !isCompleted else { return } // Prevent finishing twice
+
+        isCompleted = true
+
+        // Calculate duration based on first and last set timestamps if available
+        if let sets = sets, let first = sets.first?.timestamp, let last = sets.last?.timestamp {
+            duration = last.timeIntervalSince(first)
+        } else {
+            // Fallback: zero duration
+            duration = 0
+        }
     }
 }
 

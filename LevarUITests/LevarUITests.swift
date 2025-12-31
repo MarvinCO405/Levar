@@ -1,13 +1,13 @@
 //
-//  LiftLogUITests.swift
-//  LiftLogUITests
+//  LevarUITests.swift
+//  LevarUITests
 //
 //  Created by Marvin Cordova Ortiz on 12/31/25.
 //
 
 import XCTest
 
-final class LiftLogUITests: XCTestCase {
+final class LevarUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

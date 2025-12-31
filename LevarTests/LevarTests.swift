@@ -1,6 +1,6 @@
 import Testing
 import Foundation
-@testable import LiftLog
+@testable import Levar
 
 // MARK: - Exercise Model Tests
 @Suite("Exercise Model Tests")

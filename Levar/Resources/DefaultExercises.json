@@ -1,0 +1,41 @@
+[
+  { "name": "Bench Press", "category": "Chest" },
+  { "name": "Incline Bench Press", "category": "Chest" },
+  { "name": "Chest Fly", "category": "Chest" },
+  { "name": "Push-Up", "category": "Chest" },
+
+  { "name": "Deadlift", "category": "Back" },
+  { "name": "Pull-Up", "category": "Back" },
+  { "name": "Lat Pulldown", "category": "Back" },
+  { "name": "Barbell Row", "category": "Back" },
+  { "name": "Seated Cable Row", "category": "Back" },
+
+  { "name": "Squat", "category": "Legs" },
+  { "name": "Front Squat", "category": "Legs" },
+  { "name": "Leg Press", "category": "Legs" },
+  { "name": "Romanian Deadlift", "category": "Legs" },
+  { "name": "Leg Curl", "category": "Legs" },
+  { "name": "Leg Extension", "category": "Legs" },
+  { "name": "Calf Raise", "category": "Legs" },
+
+  { "name": "Overhead Press", "category": "Shoulders" },
+  { "name": "Lateral Raise", "category": "Shoulders" },
+  { "name": "Front Raise", "category": "Shoulders" },
+  { "name": "Rear Delt Fly", "category": "Shoulders" },
+
+  { "name": "Barbell Curl", "category": "Arms" },
+  { "name": "Dumbbell Curl", "category": "Arms" },
+  { "name": "Hammer Curl", "category": "Arms" },
+  { "name": "Triceps Pushdown", "category": "Arms" },
+  { "name": "Skullcrusher", "category": "Arms" },
+  { "name": "Dips", "category": "Arms" },
+
+  { "name": "Plank", "category": "Core" },
+  { "name": "Crunch", "category": "Core" },
+  { "name": "Hanging Leg Raise", "category": "Core" },
+  { "name": "Russian Twist", "category": "Core" },
+
+  { "name": "Farmer's Carry", "category": "Other" },
+  { "name": "Burpee", "category": "Other" }
+]
+
